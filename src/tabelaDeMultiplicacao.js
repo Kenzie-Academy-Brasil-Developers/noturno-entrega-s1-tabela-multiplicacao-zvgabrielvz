@@ -4,7 +4,7 @@ function tabelaMultiplicacao10() {
     for (let count10 = 0; count10 <= 10; count10++) {
         table10[count10] = [];
         for(let secondCount10 = 0; secondCount10 <= 10; secondCount10++){
-            table10[count10].push(secondCount10);
+            table10[count10].push(count10 * secondCount10);
         }
     }
     console.table(table10)
